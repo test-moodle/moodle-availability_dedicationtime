@@ -31,3 +31,5 @@ $plugin->dependencies = [
     // Depend upon version 2023112001 of block_dedication.
     'block_dedication' => 2023112001,
 ];
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '4.1.0';
