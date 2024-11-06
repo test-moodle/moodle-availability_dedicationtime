@@ -24,8 +24,6 @@
 
 namespace availability_dedicationtime\privacy;
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * Privacy Subsystem for availability_dedicationtime implementing null_provider.
  *

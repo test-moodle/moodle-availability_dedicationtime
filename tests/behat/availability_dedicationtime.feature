@@ -52,8 +52,7 @@ Feature: availability_dedicationtime
 
     # Log back in as student.
     When I am on the "Course 1" "course" page logged in as "student1"
-    
+
     # No pages should appear yet.
     Then I should not see "P2" in the "region-main" "region"
     And I should not see "P3" in the "region-main" "region"
-    
