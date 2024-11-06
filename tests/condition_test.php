@@ -67,8 +67,9 @@ final class condition_test extends advanced_testcase {
     /**
      * Tests whether description is correct
      * @covers \availability_dedicationtime\condition
+     * @return void
      */
-    public function test_get_description() {
+    public function test_get_description(): void {
         $info = new \core_availability\mock_info();
         $structure = (object)['type' => 'dedicationtime', 'dedicationtime' => '5', 'unit' => 'minutes'];
         $cond = new condition($structure);
@@ -81,8 +82,9 @@ final class condition_test extends advanced_testcase {
     /**
      * Tests whether activity is available or not
      * @covers \availability_dedicationtime\condition
+     * @return void
      */
-    public function test_is_available() {
+    public function test_is_available(): void {
         global $DB, $USER;
 
         $data = new stdClass();
@@ -111,8 +113,9 @@ final class condition_test extends advanced_testcase {
     /**
      * Tests whether save() returns correct response
      * @covers \availability_dedicationtime\condition
+     * @return void
      */
-    public function test_save() {
+    public function test_save(): void {
         $structure = (object)['dedicationtime' => '5', 'unit' => 'minutes'];
         $cond = new condition($structure);
         $structure->type = 'dedicationtime';

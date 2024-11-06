@@ -23,6 +23,7 @@
  */
 
 $string['description'] = 'विशिष्ट पाठ्यक्रम समर्पण समय तक पहुंच को प्रतिबंधित करें।';
+$string['error_invalidnumber'] = 'कृपया एक मान्य मान दर्ज करें।';
 $string['hours'] = 'घंटे';
 $string['minutes'] = 'मिनट';
 $string['pluginname'] = 'समर्पण समय के अनुसार प्रतिबंध';
@@ -31,4 +32,3 @@ $string['requires_finish'] = 'आपको पाठ्यक्रम में
 $string['requires_notfinish'] = 'आपको पाठ्यक्रम में <strong>{$a->hours}</strong> घंटे और <strong>{$a->minutes}</strong> मिनट नहीं बिताने चाहिए।';
 $string['title'] = 'समर्पण समय';
 $string['unit'] = 'समर्पण समय इकाई';
-$string['error_invalidnumber'] = 'कृपया एक मान्य मान दर्ज करें।';

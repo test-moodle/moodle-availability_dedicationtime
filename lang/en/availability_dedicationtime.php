@@ -23,6 +23,7 @@
  */
 
 $string['description'] = 'Restrict access to a specific course dedication time.';
+$string['error_invalidnumber'] = 'Please enter a valid value.';
 $string['hours'] = 'hours';
 $string['minutes'] = 'minutes';
 $string['pluginname'] = 'Restriction by dedication time';
@@ -31,4 +32,3 @@ $string['requires_finish'] = 'you must spent at least <strong>{$a->hours}</stron
 $string['requires_notfinish'] = 'you must not spent <strong>{$a->hours}</strong> hours and <strong>{$a->minutes}</strong> minutes time in the course';
 $string['title'] = 'Dedication time';
 $string['unit'] = 'Dedication time unit';
-$string['error_invalidnumber'] = 'Please enter a valid value.';
