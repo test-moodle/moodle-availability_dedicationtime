@@ -15,7 +15,7 @@
     along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 }}
 {{!
-    @template availability_time/dedication
+    @template availability_dedicationtime/dedication
 
     Displays a dedication time selector
 
@@ -26,15 +26,15 @@
 }}
 
 <span class="availability-group form-group">
-<label>
-<span class="pr-3">{{#str}} title, availability_dedicationtime {{/str}}</span>
-<input type="text" name="availability_dedicationtime_value" title="Dedication time value" class="form-control mr-2" size="5">
-</label>
-<label>
-<span class="accesshide">{{#str}} unit, availability_dedicationtime {{/str}}</span>
-<select name="availability_dedicationtime_unit" title="Dedication time unit" class="custom-select">
-    <option value="hours">{{#str}}hours, availability_dedicationtime{{/str}}</option>
-    <option value="minutes">{{#str}}minutes, availability_dedicationtime{{/str}}</option>
-</select>
-</label>
+    <label>
+        <span class="pr-3">{{#str}}title, availability_dedicationtime{{/str}}</span>
+        <input type="text" name="availability_dedicationtime_value" title="{{#str}}title, availability_dedicationtime{{/str}}" class="form-control mr-2" size="5">
+    </label>
+    <label>
+        <span class="accesshide">{{#str}}unit, availability_dedicationtime{{/str}}</span>
+        <select name="availability_dedicationtime_unit" title="{{#str}}unit, availability_dedicationtime{{/str}}" class="custom-select">
+            <option value="hours">{{#str}}hours, availability_dedicationtime{{/str}}</option>
+            <option value="minutes">{{#str}}minutes, availability_dedicationtime{{/str}}</option>
+        </select>
+    </label>
 </span>
